@@ -9,3 +9,7 @@ email:
 .PHONY: mailhog
 mailhog:
 	MailHog
+
+.PHONY: file
+file:
+	php -S localhost:5252 ./file/download.php
